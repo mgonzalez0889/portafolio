@@ -1,0 +1,243 @@
+@font-face {
+    font-family: 'Gotham';
+    src: url('./assets/fonts/Gotham-Font/GothamLight.ttf');
+}
+
+:root {
+    --primario: #e1e1e1;
+    --secundario: #4b43be;
+    --tertiary: #F2F2F2;
+    --fuentePrincipal: 'Gotham';
+    
+    --blanco: #fff;
+    --machingray: #565D6A;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    /* outline: 1px solid red; */
+}
+
+body {
+    font-family: var(--fuentePrincipal), 'san-serif';
+    font-size: 2rem;
+    line-height: 1.5;
+    background-color: #fafafa;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+[class*="contenedor"] {
+    max-width: 120rem;
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+}
+
+.header {
+  background-color: var(--blanco);
+}
+
+.header__barra {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; 
+
+}
+
+.header__action {
+    display: block;
+    width: 15%;
+    height: 5rem;
+    background-color: transparent;
+    color: #000;    
+    border-radius: .5rem;        
+    border: solid 0.5px #24252b;
+    font-size: 1.5rem;
+}
+
+.heading__main  {
+    display: block;
+    background-color: var(--blanco);
+    padding: 1rem;
+    text-align: center;
+    width: 30rem;
+    margin: 3rem auto;
+    border-radius: 1.5rem;    
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.heading__title {
+    font-size: 7.4rem;
+    font-weight: 100;
+    text-align: center;
+}
+
+.heading__paragraph {
+    font-size: 1.5rem;
+    text-align: center;
+    font-style: normal;
+    color: #000;
+}
+
+.heading__action {
+    display: block;
+    width: 15%;
+    height: 5rem;
+    background-color: #3300ff;
+    color: var(--blanco);
+    border: none;
+    border-radius: .5rem;
+    margin: 0 auto;    
+    margin-top: 5rem;    
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.navigation__link {
+    text-decoration: none;
+
+}
+
+/* About me */
+
+.about {
+    padding-top: 15rem;
+}
+
+.about__image {
+    width: 60%;
+    object-fit: cover;
+    margin: 0 auto;
+    border-radius: .5rem;
+}
+
+.about__grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.about__heading {
+    font-size: 5rem;
+    border-top: 2px solid #d9d9d9;
+}
+
+.about__paragraph {
+    font-size: 2rem;
+}
+
+/* Work */
+.working {
+    padding: 15rem 3rem;
+}
+
+.working__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+
+.working__heading {
+    font-size: 5rem;
+    border-top: 2px solid #d9d9d9;    
+}
+
+.card{
+    background-color: var(--blanco);
+    border: 2px solid #d9d9d9;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+    margin: 5rem 0;
+}
+
+.card__title {
+    font-size: 2rem;
+    margin: .5rem 0;
+    font-weight: bold;
+}
+
+.card__subtitle {
+    font-size: 1.5rem;
+    margin: .5rem 0;
+}
+
+.card__time {
+    background-color: #d9d9d9;
+    color: #000;
+    padding: 1rem;
+    border-radius: 5rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.card__location {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+/* Skills */
+
+.skills {
+    padding: 0 3rem;
+}
+
+.skills__heading {
+    font-size: 5rem;
+    text-align: center;
+
+}
+
+.skills__paragraph {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.skills__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    padding-top: 3rem;
+}
+
+.skill__card {
+    background-color: var(--blanco);
+    border: 2px solid #d9d9d9;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.skill__content {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.skill__grade {
+    background-color: #f3f3f3;
+    padding: 1.5rem;
+    border-radius: 2rem;
+}
