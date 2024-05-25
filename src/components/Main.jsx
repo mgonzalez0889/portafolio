@@ -48,7 +48,7 @@ export default function Main() {
                         {exp.map((experience) => (
 
                         <div className="card">
-                            <img src="" alt="Imagen" />
+                            <img src="/src/assets/svg/company.svg" alt="Imagen" />
                             <div className="card__content">
 
                                 <p className="card__subtitle">{experience.subtitle}</p>                                

@@ -43,18 +43,24 @@ export const skills = [
     },
     {
         id: 8,
+        title: 'React',
+        level: 'rating-min',
+        image: 'react'
+    },
+    {
+        id: 9,
         title: 'Flutter',
         level: 'rating-min',
         image: 'flutter'
     },
     {
-        id: 9,
+        id: 10,
         title: 'Aws',
         level: 'rating-mid',
         image: 'aws'
     },
     {
-        id: 10,
+        id: 11,
         title: 'Azure',
         level: 'rating-mid',
         image: 'azure'
