@@ -77,7 +77,7 @@ export default function Main() {
                                 </h3>
                                 <span className="card__location">{experience.location}</span>
                             </div>
-                            <a className="card__time" href="#">{experience.date}</a>
+                            <a className="card__time">{experience.date}</a>
                         </div>
 
                         ))}
@@ -107,8 +107,8 @@ export default function Main() {
 
             <div className="challenge">
                 <h2 className="challenge__heading">
-                    Challenge.
-                    <span className="challenge__subheading">Challenge me.</span>
+                    Challenge
+                    <span className="challenge__subheading">Challenge me</span>
                 </h2>
             </div>
 
