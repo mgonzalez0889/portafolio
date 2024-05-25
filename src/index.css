@@ -65,6 +65,13 @@ img {
     border-radius: .5rem;        
     border: solid 0.5px #24252b;
     font-size: 1.5rem;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+}
+
+.header__action:hover {
+    background-color: #000;
+    color: var(--blanco);
 }
 
 .heading__main  {
@@ -82,7 +89,12 @@ img {
 .heading__title {
     font-size: 7.4rem;
     font-weight: 100;
-    text-align: center;
+    text-align: center;    
+}
+
+.heading__subheading {
+    display: block;
+
 }
 
 .heading__paragraph {
@@ -90,6 +102,12 @@ img {
     text-align: center;
     font-style: normal;
     color: #000;
+}
+
+.heading__media {
+    width: 100%;
+    height: auto;
+    padding: 10rem 0;
 }
 
 .heading__action {
@@ -102,6 +120,12 @@ img {
     border-radius: .5rem;
     margin: 0 auto;    
     margin-top: 5rem;    
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+}
+
+.heading__action:hover {
+    background-color: #4b43be;
 }
 
 .navigation {
@@ -196,7 +220,6 @@ img {
 }
 
 /* Skills */
-
 .skills {
     padding: 0 3rem;
 }
@@ -240,4 +263,170 @@ img {
     background-color: #f3f3f3;
     padding: 1.5rem;
     border-radius: 2rem;
+}
+
+/*  challenge */
+
+.challenge {
+    background-color: #1b1b1b;
+    min-height: 50rem;
+    margin-top: 20rem;
+    padding-top: 6rem;
+}
+
+.challenge__heading {
+    font-size: 12.8rem;
+    color: var(--blanco);
+    margin: 0;
+    text-align: center;
+    font-weight: 300;
+}
+
+.challenge__subheading {
+    display: block;
+    margin: 0;
+}
+
+/* Projects */
+.projects {
+    padding: 14rem 3rem;
+}
+.projects__heading {
+    font-size: 5rem;
+    text-align: center;
+
+}
+
+.projects__paragraph {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.projects__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    padding-top: 5rem;
+}
+
+.project__card {
+    background-color: var(--blanco);
+    border: 2px solid #d9d9d9;
+    border-radius: 1rem;
+    padding: 1.5rem 3rem;
+}
+
+.project__image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.project__title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.project__paragraph {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1.7rem 0;
+}
+
+.project__action {
+    text-decoration: none;
+    display: block;
+    width: 30%;
+    padding: 1.5rem;    
+    background-color: transparent;
+    color: #000;    
+    border-radius: .5rem;        
+    border: solid 0.5px #24252b;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 auto;
+    transition: background-color .3s ease-in-out;
+    cursor: pointer;
+}
+
+.project__action:hover {
+    background-color: #000;   
+    color: var(--blanco);
+}
+
+.footer {
+    background-color: #1b1b1b;
+    min-height: 40rem;
+}
+
+.footer__heading {
+    font-size: 7rem;
+    color: var(--blanco);
+    margin: 0;
+    text-align: center;
+    font-weight: 300;
+    padding-top: 10rem;
+}
+
+.footer__subheading {
+    display: block;
+}
+
+.footer__action {
+    display: block;
+    width: 15%;
+    height: 5rem;
+    background-color: #3300ff;
+    color: var(--blanco);
+    border: none;
+    border-radius: .5rem;
+    margin: 0 auto;    
+    margin-top: 5rem;    
+    margin-bottom: 5rem;    
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+}
+
+.footer__action:hover {
+background-color: #4b43be;
+}
+
+.footer__contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7rem 0;
+
+}
+
+.footer__title {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: var(--blanco);
+}
+
+.footer__email {
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--blanco);
+    display: block;
+    padding-bottom: .5rem;
+}
+
+.footer__link {
+    display: inline-block;
+    padding: 0 .5rem;
+}
+
+
+.footer__copy {
+    margin: 0;
+    text-align: center;
+    color: var(--blanco);
+    font-size: 2rem;
 }
