@@ -100,11 +100,7 @@ export default function Main() {
                             <figure>
                                 <img src={`assets/svg/${skill.image}.svg`} alt="" />
                             </figure>
-                            <p className="skill__content">{skill.title}</p>                        
-                            <figure>
-                                <img src={`assets/img/${skill.level}.png`} alt="" />
-                                {/* <span className="skill__grade">Alto</span> */}
-                            </figure>
+                            <p className="skill__content">{skill.title}</p>                                                   
                         </div>                   
 
                     ))}
