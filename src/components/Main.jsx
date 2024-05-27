@@ -40,14 +40,14 @@ export default function Main() {
                       autoPlay                    
                       playsInline
                       loop
-                      src="src/assets/media/videomija.mp4"
+                      src="assets/media/videomija.mp4"
                 ></video>
             </div>
             
             <div className="about contenedor" id="about">
                 <div className="about__grid">
                     <figure className="about__image">
-                        <img src="src/assets/img/about_me.jpg" alt="about_me" />
+                        <img src="assets/img/about_me.jpg" alt="about_me" />
                     </figure>
                     <div>
                         <h2 className="about__heading">About Me</h2>
@@ -74,7 +74,7 @@ export default function Main() {
                         {exp.map((experience) => (
 
                         <div className="card">
-                            <img src="src/assets/svg/company.svg" alt="Imagen" />
+                            <img src="assets/svg/company.svg" alt="Imagen" />
                             <div className="card__content">
 
                                 <p className="card__subtitle">{experience.subtitle}</p>                                
@@ -98,11 +98,11 @@ export default function Main() {
                     {skill.map((skill) => (
                         <div className="skill__card">
                             <figure>
-                                <img src={`src/assets/svg/${skill.image}.svg`} alt="" />
+                                <img src={`assets/svg/${skill.image}.svg`} alt="" />
                             </figure>
                             <p className="skill__content">{skill.title}</p>                        
                             <figure>
-                                <img src={`src/assets/img/${skill.level}.png`} alt="" />
+                                <img src={`assets/img/${skill.level}.png`} alt="" />
                                 {/* <span className="skill__grade">Alto</span> */}
                             </figure>
                         </div>                   
@@ -126,7 +126,7 @@ export default function Main() {
                     {project.map((projects) => (
                         <div className="project__card">
                             <figure className="project__image">
-                                <img src={`src/assets/svg/${projects.img}.svg`} alt="" />
+                                <img src={`assets/svg/${projects.img}.svg`} alt="" />
                             </figure>
                             <h4 className="project__title">{projects.title}</h4>
                             <p className="project__paragraph">{projects.description}</p>
@@ -147,20 +147,20 @@ export default function Main() {
                     <button className="footer__action">Contact me</button>
                     <hr />
                     <div className="footer__contact">
-                        <img src="src/assets/svg/logomijail.svg" alt="Logo footer" />
+                        <img src="assets/svg/logomijail.svg" alt="Logo footer" />
 
                         <div className="footer__social">
                             <p className="footer__title">Information:</p>
                             {/* <a className="footer__email" href="mailto:mijail0824@gmail.com">mijail0824@gmail.com</a> */}
                             <div className="footer__networks">
                                 <a className="footer__link" href="https://co.linkedin.com/in/mijail-gonzalez-1684a477" target="_blank">
-                                    <img src="src/assets/svg/linkedin.svg" alt="" />
+                                    <img src="assets/svg/linkedin.svg" alt="" />
                                 </a>
                                 <a className="footer__link" href="https://github.com/mgonzalez0889" target="_blank">
-                                    <img src="src/assets/svg/github-outline.svg" alt="" />
+                                    <img src="assets/svg/github-outline.svg" alt="" />
                                 </a>
                                 <a className="footer__link" href="https://twitter.com/migonzalez08"target="_blank">
-                                    <img src="src/assets/svg/x.svg" alt="" />
+                                    <img src="assets/svg/x.svg" alt="" />
                                 </a>
                             </div>
 
