@@ -52,7 +52,13 @@ export default function Main() {
                     <div>
                         <h2 className="about__heading">About Me</h2>
                         <p className="about__paragraph">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, incidunt debitis. Repellendus quae beatae id deleniti debitis sint sed ut. Quas reprehenderit alias exercitationem enim a odio tempore assumenda tempora!
+                        Systems engineer graduated from the Latin American University. Professional focus on the development of web and mobile applications. Advanced skills in: Angular, Node Js, Springboot, AWS, Azure, NestJS, Flutter, Ionic.
+                        </p>
+                        <p className="about__paragraph">                        
+                        I have worked on impactful projects for companies in the Dominican Republic, specifically in online banking. My contributions were both functional and scalable, achieved through best practices.
+                        </p>
+                        <p className="about__paragraph">                        
+                            I have five years of experience in developing applications.
                         </p>
                     </div>
                 </div>
@@ -62,7 +68,7 @@ export default function Main() {
                 <div className="working__grid">
                     <div>
                         <h2 className="working__heading">Work Experience</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat corporis aut accusamus mollitia debitis, repudiandae ea minima obcaecati totam earum reprehenderit. Incidunt vero labore sequi corporis dignissimos, non nihil! Repellat!</p>
+                        <p>Here’s my experience as a developer</p>
                     </div>     
                     <div>
                         {exp.map((experience) => (
@@ -87,7 +93,7 @@ export default function Main() {
 
             <div className="skills">
                 <h2 className="skills__heading">Me Skills</h2>
-                <p className="skills__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam natus autem quibusdam labore minus eaque odit, dolore dolor harum nulla tempora illum necessitatibus nobis error quisquam voluptatem porro saepe laboriosam!</p>
+                <p className="skills__paragraph">Here are some of my skills!</p>
                 <div className="skills__grid">
                     {skill.map((skill) => (
                         <div className="skill__card">
@@ -114,7 +120,7 @@ export default function Main() {
 
             <div className="projects" id="projects">
                 <h2 className="projects__heading">Projects</h2>
-                <p className="projects__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ex alias quo? Neque ut labore non ipsum cupiditate tempora tempore voluptate distinctio eius nostrum inventore fugiat architecto, quidem laboriosam facere.</p>
+                <p className="projects__paragraph">Here are some projects I have worked on for companies.</p>
                 <div className="projects__grid">
 
                     {project.map((projects) => (
@@ -141,11 +147,11 @@ export default function Main() {
                     <button className="footer__action">Contact me</button>
                     <hr />
                     <div className="footer__contact">
-                        <img src="" alt="" />
+                        <img src="/src/assets/svg/logomijail.svg" alt="Logo footer" />
 
                         <div className="footer__social">
                             <p className="footer__title">Information:</p>
-                            <a className="footer__email" href="mailto:mijail0824@gmail.com">mijail0824@gmail.com</a>
+                            {/* <a className="footer__email" href="mailto:mijail0824@gmail.com">mijail0824@gmail.com</a> */}
                             <div className="footer__networks">
                                 <a className="footer__link" href="https://co.linkedin.com/in/mijail-gonzalez-1684a477" target="_blank">
                                     <img src="/src/assets/svg/linkedin.svg" alt="" />

@@ -246,7 +246,7 @@ img {
 
 @media screen and (min-width: 900px) {
     .about__image {
-        width: 60%;        
+        width: 67%;        
     }
     
 }
@@ -701,8 +701,8 @@ background-color: #4b43be;
 
 .footer__contact {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    flex-direction: column;    
     align-items: center;
     padding: 7rem 0;
 }
@@ -710,6 +710,7 @@ background-color: #4b43be;
 @media screen and (min-width: 600px){
     .footer__contact {
         flex-direction: row;
+        justify-content: space-between;
     }    
     
 }
