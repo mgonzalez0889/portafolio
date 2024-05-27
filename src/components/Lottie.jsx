@@ -5,7 +5,7 @@ export default function Lottie() {
     return (
         <div>
             <Player
-                src='../../public/lotties/logomijail.json'
+                src='lotties/logomijail.json'
                 className='player'  
                 autoplay                                      
                 debug
