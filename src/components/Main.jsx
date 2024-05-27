@@ -18,6 +18,11 @@ export default function Main() {
         window.location.href = '#footer'
     })
 
+    const contactWs = (() => {
+        window.open("https://wa.me/573015461687?text=Me%20gustaría%20cotizar%20", '_blank')
+
+    })
+
 
     return (
 
@@ -140,7 +145,7 @@ export default function Main() {
                             Someting Cool
                         </span>
                     </h3>
-                    <button className="footer__action">Contact me</button>
+                    <button className="footer__action" onClick={contactWs}>Contact me</button>
                     <hr />
                     <div className="footer__contact">
                         <img src="assets/svg/logomijail.svg" alt="Logo footer" />
