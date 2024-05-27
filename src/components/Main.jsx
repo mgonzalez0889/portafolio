@@ -167,7 +167,7 @@ export default function Main() {
                         </div>
                     </div>
                 </div>
-                <p className="footer__copy">© 2024  mijail González Varela</p>
+                <p className="footer__copy">© 2024  Mijail González Varela</p>
 
             </footer>
             
