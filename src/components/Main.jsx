@@ -6,7 +6,7 @@ import { projects } from "../data/projects";
 export default function Main() {
     const title = `Hello, I' m`;
     const name = `Mijail González Varela`;
-    const subtitle = `Full-stack creative developer, from Barranquilla - Colombia`;
+    const subtitle = `Full-stack developer, from Barranquilla - Colombia`;
     const buttonTitle = `Contact me`;
     const mainTitle = `Fullstack Developer`;
 
