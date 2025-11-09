@@ -4,7 +4,7 @@ import { skills } from "../data/skills";
 import { projects } from "../data/projects";
 
 export default function Main() {
-    const title = `Hello, I' m`;
+    const title = `Hello, I'm`;
     const name = `Mijail González Varela`;
     const subtitle = `Full-stack developer, from Barranquilla - Colombia`;
     const buttonTitle = `Contact me`;
@@ -73,7 +73,7 @@ export default function Main() {
                 <div className="working__grid">
                     <div>
                         <h2 className="working__heading">Work Experience</h2>
-                        <p>Here’s my experience as a developer</p>
+                        <p>Professional journey and key achievements</p>
                     </div>     
                     <div>
                         {exp.map((experience) => (
@@ -97,8 +97,8 @@ export default function Main() {
             </div>
 
             <div className="skills">
-                <h2 className="skills__heading">Me Skills</h2>
-                <p className="skills__paragraph">Here are some of my skills!</p>
+                <h2 className="skills__heading">Technical Skills</h2>
+                <p className="skills__paragraph">Technologies and tools I specialize in</p>
                 <div className="skills__grid">
                     {skill.map((skill) => (
                         <div className="skill__card">
@@ -114,14 +114,14 @@ export default function Main() {
 
             <div className="challenge">
                 <h2 className="challenge__heading">
-                    Challenge
-                    <span className="challenge__subheading">Challenge me</span>
+                    Ready for New Challenges
+                    <span className="challenge__subheading">Let's Build Something Amazing</span>
                 </h2>
             </div>
 
             <div className="projects" id="projects">
-                <h2 className="projects__heading">Projects</h2>
-                <p className="projects__paragraph">Here are some projects I have worked on for companies.</p>
+                <h2 className="projects__heading">Featured Projects</h2>
+                <p className="projects__paragraph">Showcasing innovative solutions developed for industry-leading companies</p>
                 <div className="projects__grid">
 
                     {[...project].reverse().map((projects) => (
@@ -140,9 +140,9 @@ export default function Main() {
 
             <footer className="footer" id="footer">
                 <div className="footer__content contenedor">
-                    <h3 className="footer__heading">Let's Create 
+                    <h3 className="footer__heading">Let's Collaborate
                         <span className="footer__subheading">
-                            Someting Cool
+                            On Your Next Project
                         </span>
                     </h3>
                     <button className="footer__action" onClick={contactWs}>Contact me</button>
