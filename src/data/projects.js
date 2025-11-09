@@ -35,6 +35,13 @@ export const projects = [
         description: `application was created in Angular 🅰️ which consists of signing documents integrating facial recognition functionalities with external providers and delivering the status of this validation to the organization's clients.`,
         visit: 'https://firmaviva.netlify.app/firma-de-documentos'
     },
+    {
+        id: 6,
+        title: 'Credit application',
+        img: 'logo-azul',
+        description: `Application developed in Angular 🅰️ for managing and approving employee credit requests at CrediPlus organization. It includes features for credit application processing, approval workflows, employee validation, and real-time status tracking of credit applications.`,
+        visit: 'https://admin.crediplus.com.co/sign-in'
+    },
 
 
 

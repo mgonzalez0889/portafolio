@@ -124,7 +124,7 @@ export default function Main() {
                 <p className="projects__paragraph">Here are some projects I have worked on for companies.</p>
                 <div className="projects__grid">
 
-                    {project.map((projects) => (
+                    {[...project].reverse().map((projects) => (
                         <div className="project__card">
                             <figure className="project__image">
                                 <img src={`assets/svg/${projects.img}.svg`} alt="" />
