@@ -49,14 +49,19 @@ export default function Main() {
                     <div>
                         <h2 className="about__heading">About Me</h2>
                         <p className="about__paragraph">
-                        Systems engineer graduated from the Latin American University. Professional focus on the development of web and mobile applications. Advanced skills in: Angular, Node Js, Springboot, AWS, Azure, NestJS, Flutter, Ionic.
+                            Systems Engineer with 7+ years of experience building end-to-end enterprise solutions across frontend and backend, in industries such 
+                            as finance, mobility and commerce. Specialized in Angular, Ionic and React, with backend experience in Java, Spring Boot, Node.js and 
+                            NestJS, and cloud services on AWS. 
                         </p>
                         <p className="about__paragraph">                        
-                        I have worked on impactful projects for companies in the Dominican Republic, specifically in online banking. My contributions were both functional and scalable, achieved through best practices.
-                        </p>
+                            I have developed mobile apps with Ionic Angular for Android and iOS and web applications with 
+                            Angular and React, led Angular migrations and driven microfrontend architectures that sped up feature delivery. I adapt easily to each 
+                            business and build stable, scalable, maintainable applications.
+                        </p>                        
                         <p className="about__paragraph">                        
-                            I have five years of experience in developing applications.
-                        </p>
+                            Applying SOLID, Clean Code and unit testing, and integrating AI tools into 
+                            my development workflow with sound technical judgment.
+                        </p>                        
                     </div>
                 </div>
             </div>
