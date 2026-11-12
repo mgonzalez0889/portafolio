@@ -1,5 +1,5 @@
 import Lottie from "./Lottie";
-import Pdf from '/assets/media/Mijail_Ronal_Resume6.pdf';
+import Pdf from '/assets/media/Mijail_Gonzalez_Varela_CV.pdf';
 
 export default function Header() {
 

@@ -1,7 +1,19 @@
 export const experience = [
     {
+        title: 'Ipark SAS',
+        subtitle: 'Software Developer Frontend',
+        location: 'Bogota - Colombia, (Remote)',
+        date: 'Jul 2026 - Oct 2026'
+    },
+    {
+        title: 'Adl Digital labs',
+        subtitle: 'Software Enginner',
+        location: 'Bogota - Colombia, (Remote)',
+        date: 'Jul 2024 - Abr 2026'
+    },
+    {
         title: 'GBM Colombia SAS',
-        subtitle: 'Sw Specialist',
+        subtitle: 'Software Specialist',
         location: 'San Jose - Costa Rica, (Remote)',
         date: 'May 2022 - May 2024'
     },

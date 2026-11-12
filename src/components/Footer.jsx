@@ -1,3 +1,5 @@
+import { getCurrentYear } from "../utils/utils";
+
 export default function Footer() {
 
     const contactWs = (() => {
@@ -36,7 +38,7 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
-                <p className="footer__copy">© 2024  Mijail González Varela</p>
+                <p className="footer__copy">© {getCurrentYear()}  Mijail González Varela</p>
             </footer>
 
         </>
