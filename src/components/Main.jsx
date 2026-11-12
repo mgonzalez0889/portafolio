@@ -44,7 +44,7 @@ export default function Main() {
             <div className="about contenedor" id="about">
                 <div className="about__grid">
                     <figure className="about__image">
-                        <img src="assets/img/about_me.jpg" alt="about_me" />
+                        <img src="assets/img/profile.png" alt="about_me" />
                     </figure>
                     <div>
                         <h2 className="about__heading">About Me</h2>
